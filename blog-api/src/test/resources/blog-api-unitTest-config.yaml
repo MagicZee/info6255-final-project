@@ -1,0 +1,9 @@
+name: Suite_blogApi_unitTest
+threadCount: 4
+ 
+tests:
+  - name: Mocks
+    classes:
+      - com.blog.api.tests.UserTest
+      - com.blog.api.tests.UserServiceTest
+      - com.blog.api.tests.PostServiceTest
